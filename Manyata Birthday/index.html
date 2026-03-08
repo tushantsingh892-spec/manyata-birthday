@@ -226,17 +226,15 @@
         // Photo Persistence Helpers
         const STORAGE_KEY = 'manyataBirthdayPhotos';
 
-        // Default photos that everyone sees unless they upload their own.
+        // Default photos using local images
         // Place your images in an "images" folder next to index.html.
-        // Example filenames: images/photo1.jpg, images/photo2.jpg, etc.
-        // Using absolute GitHub URLs for public access
         const DEFAULT_PHOTOS = [
-            'https://raw.githubusercontent.com/tushantsingh892-spec/manyata-birthday/main/images/photo1.png',
-            'https://raw.githubusercontent.com/tushantsingh892-spec/manyata-birthday/main/images/photo2.png',
-            'https://raw.githubusercontent.com/tushantsingh892-spec/manyata-birthday/main/images/photo3.png',
-            'https://raw.githubusercontent.com/tushantsingh892-spec/manyata-birthday/main/images/photo4.png',
-            'https://raw.githubusercontent.com/tushantsingh892-spec/manyata-birthday/main/images/photo5.png',
-            'https://raw.githubusercontent.com/tushantsingh892-spec/manyata-birthday/main/images/photo6.png'
+            'images/IMG_20230422_210713_571.jpg',
+            'images/IMG_20230428_234420_078.jpg',
+            'images/IMG_20230524_190447_313.jpg',
+            'images/IMG_20230528_110945_473.jpg',
+            'images/IMG_20230702_100251_328.jpg',
+            'images/Snapchat-1008191896.jpg'
         ];
 
         function savePhotosToStorage(dataUrls) {
