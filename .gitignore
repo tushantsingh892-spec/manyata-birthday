@@ -1,24 +1,8 @@
-# Java
-*.class
-*.jar
-*.war
+# Ignore everything
+*
 
-# Images (if local only)
-*.jpg
-*.jpeg
-*.png
-*.gif
-
-# IDE
-.idea/
-*.iml
-.vscode/
-
-# OS
-Thumbs.db
-.DS_Store
-
-# Build
-bin/
-target/
+# But keep these folders and files
+!Manyata Birthday/
+!Manyata Birthday/**
+!.gitignore
 
